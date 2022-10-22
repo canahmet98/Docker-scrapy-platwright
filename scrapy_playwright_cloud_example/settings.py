@@ -15,7 +15,7 @@ FEED_EXPORT_INDENT = 4
 
 CONCURRENT_REQUESTS = 32
 
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "DEBUG"
 
 # scrapy-playwright
 ###################
