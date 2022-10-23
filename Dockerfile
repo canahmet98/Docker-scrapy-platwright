@@ -18,5 +18,4 @@ RUN rm -rf /ms-playwright/* \
     && pip install --no-cache-dir -r requirements.txt
 
 COPY . /app
-ENV SCRAPY_SETTINGS_MODULE scrapy_playwright_cloud_example.settings
 RUN python3.9 setup.py install
